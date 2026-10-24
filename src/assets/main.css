@@ -1,0 +1,21 @@
+@import './base.css';
+
+#app {
+  background-color: var(--main-bg);
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+@media (max-width: 520px) {
+  #app {
+    padding: 2rem 10px 2rem 10px;
+  }
+}
+
+svg {
+  vertical-align: text-top;
+}
