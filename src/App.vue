@@ -15,7 +15,6 @@ import Shop from './components/Shop.vue'
 <style scoped>
   .grouped {
     display: flex;
-    place-items: top;
     div:nth-child(2) {
       width: 150px;
     }
